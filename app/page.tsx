@@ -18,6 +18,12 @@ export default function Home() {
               Pricing
             </a>
             <a
+              href="https://portal.daffiliates.com"
+              className="text-sm text-gray-600 hover:text-gray-900"
+            >
+              Affiliate Login
+            </a>
+            <a
               href="https://apps.shopify.com"
               className="text-sm font-semibold bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition-colors"
             >
