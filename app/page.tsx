@@ -187,22 +187,17 @@ const plans = [
   {
     name: "Free", price: "$0", period: "/mo", popular: false,
     cta: "Get Started Free", ctaStyle: "border-2 border-gray-200 text-gray-700 hover:border-purple-300 hover:text-purple-700",
-    features: { affiliates: "5", campaigns: "1", tracking: true, portal: true, domain: false, whitelabel: false, analytics: false, bulk: false, team: "1", api: false, trial: "—" },
+    features: { affiliates: "5", campaigns: "1", tracking: true, portal: true, domain: false, whitelabel: false, analytics: false, bulk: false, team: "1", trial: "—" },
   },
   {
     name: "Starter", price: "$29", period: "/mo", popular: false,
     cta: "Start 30-Day Free Trial", ctaStyle: "bg-purple-600 text-white hover:bg-purple-700",
-    features: { affiliates: "50", campaigns: "5", tracking: true, portal: true, domain: false, whitelabel: false, analytics: true, bulk: true, team: "3", api: false, trial: "30 days free" },
+    features: { affiliates: "50", campaigns: "5", tracking: true, portal: true, domain: false, whitelabel: false, analytics: true, bulk: true, team: "3", trial: "30 days free" },
   },
   {
-    name: "Pro", price: "$79", period: "/mo", popular: true,
+    name: "Pro", price: "$99", period: "/mo", popular: true,
     cta: "Start 30-Day Free Trial", ctaStyle: "bg-purple-600 text-white hover:bg-purple-700",
-    features: { affiliates: "Unlimited", campaigns: "Unlimited", tracking: true, portal: true, domain: true, whitelabel: true, analytics: true, bulk: true, team: "10", api: false, trial: "30 days free" },
-  },
-  {
-    name: "Enterprise", price: "$199", period: "/mo", popular: false,
-    cta: "Start 30-Day Free Trial", ctaStyle: "bg-purple-600 text-white hover:bg-purple-700",
-    features: { affiliates: "Unlimited", campaigns: "Unlimited", tracking: true, portal: true, domain: true, whitelabel: true, analytics: true, bulk: true, team: "Unlimited", api: true, trial: "30 days free" },
+    features: { affiliates: "Unlimited", campaigns: "Unlimited", tracking: true, portal: true, domain: true, whitelabel: true, analytics: true, bulk: true, team: "10", trial: "30 days free" },
   },
 ];
 
@@ -216,7 +211,6 @@ const featureRows: { key: keyof typeof plans[0]["features"]; label: string }[] =
   { key: "analytics", label: "Analytics & reports" },
   { key: "bulk", label: "Bulk import" },
   { key: "team", label: "Team members" },
-  { key: "api", label: "API access" },
   { key: "trial", label: "Trial" },
 ];
 
