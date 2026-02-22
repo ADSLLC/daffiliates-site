@@ -481,7 +481,7 @@ export default function Home() {
             <span className="font-bold text-gray-700">dAffiliates</span>
             <a href="/privacy" className="hover:text-purple-700 transition-colors">Privacy Policy</a>
             <a href="/terms" className="hover:text-purple-700 transition-colors">Terms of Service</a>
-            <a href="mailto:support@daffiliates.com" className="hover:text-purple-700 transition-colors">Contact</a>
+            <a href="/contact" className="hover:text-purple-700 transition-colors">Contact</a>
             <a href="https://portal.daffiliates.com" className="hover:text-purple-700 transition-colors">Login</a>
           </div>
           <p>© 2026 dAffiliates by Advanced Derm Solutions LLC</p>
